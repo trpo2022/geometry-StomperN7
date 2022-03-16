@@ -11,8 +11,7 @@ void circle()
         p = M_PI * r * 2;
         s = M_PI * r * r;
         printf("Perimetr: %.2f\nS: %.2f \n", s, p);
-    } 
-	else {
+    } else {
         printf("Error\n");
     }
 }

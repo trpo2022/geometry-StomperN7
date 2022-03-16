@@ -5,16 +5,14 @@
 
 int main()
 {
-	int a;
-	printf("1. Cirle\n2. Triangle\nChoose your figure: ");
-	scanf(" %d", &a);
-	if (a == 1) 
-	{
-		circle();
-	}
-	if (a == 2) 
-	{
-		triangle();
-	}
-	return 0;
+    int a;
+    printf("1. Cirle\n2. Triangle\nChoose your figure: ");
+    scanf(" %d", &a);
+    if (a == 1) {
+        circle();
+    }
+    if (a == 2) {
+        triangle();
+    }
+    return 0;
 }
