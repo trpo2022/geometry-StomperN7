@@ -1,6 +1,5 @@
-#include "libgeo/circle.h"
-#include "libgeo/poligon.h"
-#include "libgeo/triangle.h"
+#include "libmake/circle.h"
+#include "libmake/triangle.h"
 #include <math.h>
 #include <stdio.h>
 
